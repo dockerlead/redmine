@@ -4,6 +4,7 @@ services:
 
   redmine:
     image: redmine
+    container_name: redmine_web
     restart: always
     ports:
       - ${HOST_PORT}:3000
